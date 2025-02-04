@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color:red;
+background-color: rgb(131, 255, 78);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
@@ -57,12 +61,21 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="line_password"/>
+        <widget class="QLineEdit" name="line_password">
+         <property name="echoMode">
+          <enum>QLineEdit::EchoMode::Password</enum>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
      <item>
       <widget class="QPushButton" name="sign_in">
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 0, 0);
+background-color: rgb(121, 201, 255);
+font: 18pt &quot;Segoe Print&quot;;</string>
+       </property>
        <property name="text">
         <string>SIGN IN</string>
        </property>

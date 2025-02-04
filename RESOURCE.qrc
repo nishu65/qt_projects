@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/resrc">
         <file>PICC/wallpaperflare.com_wallpaper (2).jpg</file>
+        <file>PICC/v.png</file>
     </qresource>
 </RCC>
